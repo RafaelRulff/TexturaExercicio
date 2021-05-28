@@ -38,7 +38,7 @@ for (float i = 0; i < n_lat; i += 1.f)
         
                 glNormal3(p);
 
-        u=atan2f(p.y,p.x)/2*PI+0.5;
+        u=atan2f(p.y,p.x)/(2*PI)+0.5;
         
         v=0.5-asinf(p.z)/PI;
         
@@ -50,7 +50,7 @@ for (float i = 0; i < n_lat; i += 1.f)
         
         glNormal3(p);
 
-        u=atan2f(p.y,p.x)/2*PI+0.5;
+        u=atan2f(p.y,p.x)/(2*PI)+0.5;
         
         v=0.5-asinf(p.z)/PI;
         
@@ -63,7 +63,7 @@ for (float i = 0; i < n_lat; i += 1.f)
         
         glNormal3(p);
 
-        u=atan2f(p.y,p.x)/2*PI+0.5;
+        u=atan2f(p.y,p.x)/(2*PI)+0.5;
         
         v=0.5-asinf(p.z)/PI;
         
@@ -79,7 +79,7 @@ for (float i = 0; i < n_lat; i += 1.f)
         
                 glNormal3(p);
 
-        u=atan2f(p.y,p.x)/2*PI+0.5;
+        u=atan2f(p.y,p.x)/(2*PI)+0.5;
         
         v=0.5-asinf(p.z)/PI;
         
@@ -93,7 +93,7 @@ for (float i = 0; i < n_lat; i += 1.f)
         
         glNormal3(p);
 
-        u=atan2f(p.y,p.x)/2*PI+0.5;
+        u=atan2f(p.y,p.x)/(2*PI)+0.5;
         
         v=0.5-asinf(p.z)/PI;
         
@@ -107,7 +107,7 @@ for (float i = 0; i < n_lat; i += 1.f)
         
         glNormal3(p);
 
-        u=atan2f(p.y,p.x)/2*PI+0.5;
+        u=atan2f(p.y,p.x)/(2*PI)+0.5;
         
         v=0.5-asinf(p.z)/PI;
         
